@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+:root {
+  --primary: #222831;
+  --secondary: #eeeeee;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto Slab", serif;
+}
+
+h1,h2,
+.offWhite__para {
+  text-align: center;
+}
+.hero{
+    font-size: 1.5rem;
+    text-decoration: none;
+  color: var(--secondary);
+}
+nav {
+  background-color: var(--primary);
+  display: flex;
+  color: var(--secondary);
+  padding: 1rem;
+  border-radius: 0 0 0 30px;
+}
+
+ul {
+  display: flex;
+}
+
+.nav__link {
+  list-style-type: none;
+  margin: 0.2rem 1rem;
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+.nav__item {
+  position: absolute;
+  right: 10px;
+}
+.active {
+  font-weight: bolder;
+}
+.heroImage {
+  display: block;
+  width: 50%;
+  margin: 2rem auto;
+}
+
+.offWhite {
+  background-color: #98acf8;
+  padding: 2rem;
+  width: 50%;
+  margin: 20px auto;
+}
+.white {
+  padding: 2rem;
+  width: 50%;
+  margin: 20px auto;
+}
+.offWhite__para {
+  /* width: 50%; */
+  margin: 30px auto;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  width: 180px;
+  text-align: center;
+  padding: 1rem 2rem;
+  position: relative;
+  margin: 30px auto;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.primary {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+.primary:hover {
+  background-color: var(--secondary);
+  color: var(--primary);
+  border: solid 1px;
+}
+
+.secondary {
+  background-color: var(--secondary);
+  color: var(--primary);
+  border: solid 1px;
+}
+.secondary:hover {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+footer{
+    background-color: var(--primary);
+    color: var(--secondary);
+    padding: 1.5rem;
+}
+.footer__item{
+    display: flex;
+    justify-content: center;
+}
+.footer__link{
+    text-decoration: none;
+    color: var(--secondary);
+    margin : 10px 20px;
+}
