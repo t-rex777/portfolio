@@ -9,13 +9,14 @@ body {
   font-family: "Roboto Slab", serif;
 }
 
-h1,h2,
+h1,
+h2,
 .offWhite__para {
   text-align: center;
 }
-.hero{
-    font-size: 1.5rem;
-    text-decoration: none;
+.hero {
+  font-size: 1.5rem;
+  text-decoration: none;
   color: var(--secondary);
 }
 nav {
@@ -49,9 +50,12 @@ ul {
   width: 50%;
   margin: 2rem auto;
 }
+.coloured {
+  background-color: #d0e8f2;
+  width: 100%;
+}
 
 .offWhite {
-  background-color: #98acf8;
   padding: 2rem;
   width: 50%;
   margin: 20px auto;
@@ -97,17 +101,17 @@ ul {
   color: var(--secondary);
 }
 
-footer{
-    background-color: var(--primary);
-    color: var(--secondary);
-    padding: 1.5rem;
+footer {
+  background-color: var(--primary);
+  color: var(--secondary);
+  padding: 1.5rem;
 }
-.footer__item{
-    display: flex;
-    justify-content: center;
+.footer__item {
+  display: flex;
+  justify-content: center;
 }
-.footer__link{
-    text-decoration: none;
-    color: var(--secondary);
-    margin : 10px 20px;
+.footer__link {
+  text-decoration: none;
+  color: var(--secondary);
+  margin: 10px 20px;
 }
