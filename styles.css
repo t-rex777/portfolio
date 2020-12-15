@@ -79,7 +79,6 @@ ul {
   margin: 30px auto;
   border-radius: 20px;
   text-decoration: none;
-  visibility: hidden;
 }
 .primary {
   background-color: var(--primary);
@@ -131,5 +130,18 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: center;
+  }
+
+  
+    .link {
+      display: flex;
+      justify-content: center;
+      width: 8rem;
+      text-align: center;
+      padding: 0.5rem 1rem;
+      margin: 30px auto;
+      border-radius: 10px;
+      text-decoration: none;
+    
   }
 }
