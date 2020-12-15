@@ -22,6 +22,7 @@ h2,
 nav {
   background-color: var(--primary);
   display: flex;
+  flex-direction: column;
   color: var(--secondary);
   padding: 1rem;
   border-radius: 0 0 0 30px;
@@ -66,20 +67,19 @@ ul {
   margin: 20px auto;
 }
 .offWhite__para {
-  /* width: 50%; */
   margin: 30px auto;
 }
 
 .link {
   display: flex;
   justify-content: center;
-  width: 180px;
+  width: 11.25rem;
   text-align: center;
   padding: 1rem 2rem;
-  position: relative;
   margin: 30px auto;
   border-radius: 20px;
   text-decoration: none;
+  visibility: hidden;
 }
 .primary {
   background-color: var(--primary);
@@ -109,9 +109,27 @@ footer {
 .footer__item {
   display: flex;
   justify-content: center;
+  padding-right: 40px;
 }
 .footer__link {
   text-decoration: none;
   color: var(--secondary);
   margin: 10px 20px;
+}
+
+@media screen and (max-width: 500px) {
+  nav {
+    display: flex;
+    text-align: center;
+  }
+  .nav__item {
+    position: relative;
+    margin: 10px auto;
+  }
+
+  footer ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
 }
